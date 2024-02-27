@@ -16,16 +16,15 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Program:
 ```
-/*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: Prasannalakshmi G
 RegisterNumber: 212222240075
-
+```
 ```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df=pd.read_csv('/content/ex1_os.csv')
+df=pd.read_csv('/content/MLSET.csv')
 df.head(10)
 plt.scatter(df['X'],df['Y'])
 plt.xlabel('X')
@@ -48,21 +47,23 @@ lr.coef_
 lr.intercept_
 ```
 ## Output:
+
 ## 1)HEAD:
-![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/b63f656e-500f-4008-ad94-472539f0f910)
+![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/7f5c51da-9ec1-4d03-aae2-b282dba7bbaf)
+
 ## 2)GRAPH OF PLOTTED DATA:
-![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/c81e2c1b-901f-4649-ab92-c88901e26554)
+![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/f772be72-ccb5-4022-9dbc-bea28cf8e7cf)
+
 ## 3)TRAINED DATA:
-![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/72b1e994-e121-40c4-965a-d92c6283d9ec)
+![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/3ccc9389-0fac-438e-abb1-ec20eeb937c7)
+
 ## 4)LINE OF REGRESSION:
-![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/dd31869f-4386-44c5-9877-db7321bac033)
+![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/1611acb7-a808-49b8-b811-a424444517d6)
+
 ## 5)COEFFICIENT AND INTERCEPT VALUES:
-![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/882b225d-9ed3-431b-85a7-e94051165bec)
+![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/35d269e0-e13d-4afd-8b08-12060fbaa145)
 
 ```
-
-## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
 
 
 ## Result:
