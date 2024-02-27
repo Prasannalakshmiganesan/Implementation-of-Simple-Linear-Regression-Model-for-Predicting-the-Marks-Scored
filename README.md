@@ -63,8 +63,7 @@ lr.intercept_
 ## 5)COEFFICIENT AND INTERCEPT VALUES:
 ![image](https://github.com/Prasannalakshmiganesan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118610231/35d269e0-e13d-4afd-8b08-12060fbaa145)
 
-```
 
 
-##Result:
+## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
